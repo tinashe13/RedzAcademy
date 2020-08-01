@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 's6i$y1^9a6jgdip49z4-(ac@gdnu-7f9edf@**3#hz*ti#6=x2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://redzacademy.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
